@@ -1,0 +1,33 @@
+
+.example {/*親div*/
+  position: relative;/*相対配置*/
+  }
+
+/* left: 50%; */  
+  /* margin-left: 100px; */
+
+.example p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  /*文字の装飾は省略*/
+  color: white;/*文字は白に*/
+  font-weight: bold; /*太字に*/
+  font-size: 2em;/*サイズ2倍*/
+  font-family :Quicksand, sans-serif;/*Google Font*/
+  }
+
+  
+.example img {
+  width: 100%;
+  max-height : 400px;
+/*  ;*/ 
+}
+
+
+ 

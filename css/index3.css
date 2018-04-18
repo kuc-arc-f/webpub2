@@ -1,0 +1,53 @@
+
+a{
+	color: inherit;
+}
+
+.cover {
+	background-size: cover;
+	padding: 20px;
+}
+.cover p{
+  margin: 0px;
+  padding:0;
+  /*文字の装飾は省略*/
+  color: white;/*文字は白に*/
+  font-weight: bold; /*太字に*/
+  font-size: 3em;/*サイズ2倍*/
+
+}
+.page-bottom {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	padding: 11px;
+	background-color: #666;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	font-size: 21px;
+	font-weight: bold;
+	-ms-filter: "alpha(opacity=80)";
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+　  color: #fff;
+	text-decoration:none;
+}
+.page-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	padding: 11px;
+	background-color: #666;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	font-size: 21px;
+	-ms-filter: "alpha(opacity=80)";
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+　  color: #fff;
+	text-decoration:none;
+}

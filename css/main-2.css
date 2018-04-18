@@ -1,0 +1,21 @@
+
+.head-image {/*親div*/
+  background-color: #AAA;
+  text-align: left;
+  padding:20px;
+}
+
+.head-image p{
+  color:white;
+  font-size: 18px;
+}
+
+  
+.head-image img {
+
+/*  max-height : 400px;
+ width: 100%; ;*/ 
+}
+
+
+ 
